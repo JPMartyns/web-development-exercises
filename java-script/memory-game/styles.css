@@ -1,0 +1,31 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+
+body #grid{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+img {
+    padding: 5px;
+    border: 2px solid red;
+}
+
+#grid img:hover {
+    cursor: pointer;
+    opacity: 0.2;
+    transform: scale(1.02);
+}
+
+#grid img[src="images/white.png"] {
+    cursor: default;
+}
+
